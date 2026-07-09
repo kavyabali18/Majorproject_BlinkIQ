@@ -1,0 +1,85 @@
+/* Main App Background */
+.stApp{
+    background-color:#0f172a;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+/* Text */
+h1,h2,h3,h4,h5,h6,p,label,span{
+    color:white !important;
+}
+
+/* Metric Cards */
+[data-testid="metric-container"]{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:15px;
+    padding:18px;
+}
+
+/* Plotly Charts */
+.stPlotlyChart{
+    background:#1e293b;
+    border-radius:15px;
+    padding:15px;
+}
+
+/* Buttons */
+/* Normal Buttons */
+.stButton > button{
+    background:#22c55e;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.stButton > button:hover{
+    background:#16a34a;
+    color:white;
+}
+
+/* Download Button */
+.stDownloadButton > button{
+    width:100%;
+    background:#1f2937 !important;
+    color:white !important;
+    border:1px solid #374151 !important;
+    border-radius:10px;
+    padding:0.75rem;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.stDownloadButton > button:hover{
+    background:#22c55e !important;
+    color:white !important;
+    border-color:#22c55e !important;
+}
+
+/* Selectbox */
+div[data-baseweb="select"]{
+    background:#1e293b;
+}
+/* Remove top whitespace */
+.block-container{
+    padding-top:1rem !important;
+    padding-bottom:2rem;
+}
+
+header{
+    background:transparent !important;
+}
+
+div[data-testid="stToolbar"]{
+    right:1rem;
+}
+
+div[data-testid="stDecoration"]{
+    display:none;
+}
