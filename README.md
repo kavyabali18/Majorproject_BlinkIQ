@@ -236,4 +236,14 @@ streamlit run Home.py
 
 **Kavya Shree Bali**
 
+<<<<<<< HEAD
 B.Tech – Artificial Intelligence & Machine Learning
+=======
+2026
+
+---
+
+## License
+
+This project is developed for educational and internship purposes.
+>>>>>>> 4753e4fb69ccb0359b2a8161ee4426659aec44a5
