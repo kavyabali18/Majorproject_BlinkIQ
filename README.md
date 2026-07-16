@@ -48,7 +48,7 @@ The application combines data analytics, business intelligence, and visualizatio
 ```text
 BlinkIQ_Streamlit/
 │
-├── app.py
+├── Home.py
 ├── style.css
 ├── utils.py
 │
